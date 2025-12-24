@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smart-home-hub</title>
+  </head>
+  <body>
+    <header>
+      <h1>Smart Home Hub</h1>
+    </header>
+
+    <main>
+      <section class="ct">
+        <div>
+          <h2>Smart Device Registration</h2>
+        </div>
+        <div class="device-form">
+          <div class="form-group">
+            <label for="nameDevice">Name:</label>
+            <input type="text" id="nameDevice" placeholder="Ej. iPhone 15" />
+          </div>
+
+          <div class="form-group">
+            <label for="brandDevice">Brand:</label>
+            <input type="text" id="brandDevice" placeholder="Ej. Apple" />
+          </div>
+
+          <!-- select -->
+          <label><input type="checkbox" id="cbox1" value="first_checkbox" />Light</label>
+          <br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox" />Header</label>
+        </div>
+        <br>
+        <hr>
+        <button>Save</button>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
